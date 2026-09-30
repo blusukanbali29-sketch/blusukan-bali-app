@@ -1,0 +1,20 @@
+PT BLUSUKAN BALI TRAVEL — PWA DENGAN LOGO RESMI
+
+Paket ini menggunakan logo PT Blusukan Bali Travel yang diberikan pengguna, bukan monogram BBT.
+Dashboard tujuan sudah diatur ke URL Apps Script yang diberikan.
+
+Isi:
+- index.html: halaman aplikasi dengan logo perusahaan
+- manifest.webmanifest dan sw.js: konfigurasi PWA
+- icons/: ikon aplikasi berbasis logo perusahaan
+
+PENTING:
+Ini adalah pintasan PWA yang membuka Dashboard Apps Script. Data dan fungsi dashboard tetap berjalan online; mode offline hanya menyimpan kerangka aplikasi, bukan data dashboard.
+
+CARA MEMASANG:
+1. Unggah seluruh isi folder ini ke hosting HTTPS yang mendukung file statis dan service worker (misalnya GitHub Pages atau Firebase Hosting).
+2. Buka alamat hosting tersebut di Safari pada iPhone, lalu pilih Bagikan > Tambahkan ke Layar Utama.
+3. Di MacBook, buka alamat hosting dengan Chrome/Edge dan pilih Install app bila tersedia.
+4. Tekan Buka Dashboard. Login Google mungkin diperlukan.
+
+Jangan membuka index.html langsung dari komputer (file://), karena PWA memerlukan HTTPS atau localhost.
